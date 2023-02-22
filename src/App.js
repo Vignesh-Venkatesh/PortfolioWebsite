@@ -2,12 +2,18 @@ import Navbar from './Navbar'
 import "./CSS/App.css"
 import Picture from './Picture'
 import ProjectCard from './ProjectCard'
+import {Helmet} from "react-helmet";
 
 function App() {
 
   return (
     
     <div className="App"> 
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Vignesh's Portfolio</title>
+        <link rel="canonical" href="https://vignesh-venkatesh.github.io/PortfolioWebsite/" />
+      </Helmet>
     
       <Navbar />
       <Picture />
