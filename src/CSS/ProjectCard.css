@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Roboto+Mono:wght@600;700&display=swap');
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+    height: 270px;
+    margin: 20px;
+    background: rgb(71,71,79);
+    background: linear-gradient(360deg, rgba(71,71,79,1) 0%, rgba(72,67,67,1) 100%);
+    backdrop-filter: blur(50px);
+    
+}
+
+.project-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* optional: to center the cards horizontally */
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+  
+ul {
+    font-family: "Courier Prime";
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.project-text {
+    color: orange;
+}
+
+.fa-github{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 0;
+    color: white;
+}
+
+.fa-github:hover{
+    color: orange;
+    transition: 0.3s;
+    
+}
+
